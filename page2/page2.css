@@ -22,6 +22,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    /* background-color: #8A2BE2; */
     backdrop-filter: blur(5px)
 }
 
@@ -58,18 +59,79 @@ header {
     border-top: 6px solid #8A2BE2;
 }
 
+.imgy {
+    height: 400px;
+    width: 350px;
+    margin: 0px 20px;
+    border-radius: 7px;
+}
+
+.bod {
+    color: white;
+    border-left: 7px solid white;
+    padding: 10px;
+    width:800px;
+}
+.bod2{
+    color:#8A2BE2;
+    border-right: 7px solid #8A2BE2;
+    padding: 10px;
+    width:800px; 
+}
+.bod2 h2{
+    font-size:30px;
+}
 .hero {
     padding: 20px;
 }
 
 .reasons {
     text-align: center;
-    padding: 0px 20px;
-    background-color: #f4f4f4;
+    padding: 10px 20px;
+    background-color: #5a00b0;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+.reasons2{
+    text-align: center;
+    padding: 10px 20px;
+    background-color:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+
+.bod h2 {
+    font-weight: 400px;
+}
+
+.gen {
+    display: flex;
+    flex-direction: row;
+    background-color: #8A2BE2;
+    gap: 10px;
+    padding: 30px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    width:1200px;
+}
+.gen2{
+    display: flex;
+    flex-direction: row;
+    background-color:#f4f4f4;
+    gap: 10px;
+    padding: 30px;
+    /* margin-bottom:20px; */
+    border-radius: 10px;
+    width:1200px;
 }
 
 .reasons h2 {
     font-size: 30px;
+    color: white;
 }
 
 .reason-cards {
