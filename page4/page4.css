@@ -9,21 +9,20 @@ body {
 header {
     color: white;
     text-align: center;
-    background-image: url("fear.jpeg");
-    height: 600px;
     display: flex;
     align-items: center;
+    background-color: rgba(128, 128, 128, 0.574);
     flex-direction: column;
     justify-content: space-between;
 }
 
 .nav {
-    height: 60px;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     /* background-color: #8A2BE2; */
-    backdrop-filter: blur(5px)
+    /* backdrop-filter: blur(600px) */
 }
 
 .nav ul {
@@ -53,6 +52,8 @@ header {
     margin-top: 10px;
     cursor: pointer;
     width: 120px;
+    box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.2);
+
 }
 
 .hero h1 {
@@ -120,7 +121,6 @@ header {
     padding: 30px;
     margin-bottom: 20px;
     border-radius: 10px;
-    backdrop-filter:blur(5px);
     width: 1200px;
 }
 
@@ -299,57 +299,96 @@ h2 {
 .box-g {
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    gap: 30px;
     justify-content: center;
 }
 
 .j {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    padding-left: 45px;
+}
+
+.j h2 {
+    font-size: 35px;
+    margin: 0;
 }
 
 .b h2 {
     font-weight: 30px;
 }
+
 .ul1 li a:hover {
     border-bottom: 5px solid #8A2BE2;
 }
-
 
 .box {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border: 1px solid #8A2BE2;
+    border: 1px solid white;
     border-radius: 10px;
     box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
     padding: 7px;
-
+    height: 600px;
+    background-color: #8A2BE2;
 }
 
-.ima {
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
+.ppp {
+    width: 490px;
+    border-left: 5px solid white;
+    padding-left: 7px;
+    color: white;
 }
 
-.pp:first-child {
+.ppp p:first-child {
     font-weight: bold;
 }
 
-.pp {
-    border-left: 5px solid #8A2BE2;
-    color: #8A2BE2;
-    padding: 10px;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 7px;
+.ima {
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
 }
 
-.pp p {
+.block-g {
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    height: 200px;
+    align-items: center;
+}
+
+.blocks {
+    width: 300px;
+    margin-left: 35px;
+}
+
+.bdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.bdiv h2 {
+    font-size: 40px;
     margin: 0;
+}
+
+.bdiv p {
+    color: #8A2BE2;
+    margin: 0px;
+}
+
+.girl-g h2 {
+    font-size: 35px;
+}
+
+.girl {
+    width: 400px;
+}
+
+.girl-d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
 }
