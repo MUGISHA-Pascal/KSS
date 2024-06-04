@@ -311,6 +311,10 @@ h2 {
 .b h2 {
     font-weight: 30px;
 }
+.ul1 li a:hover {
+    border-bottom: 5px solid #8A2BE2;
+}
+
 
 .box {
     display: flex;
