@@ -70,17 +70,20 @@ header {
     color: white;
     border-left: 7px solid white;
     padding: 10px;
-    width:800px;
+    width: 800px;
 }
-.bod2{
-    color:#8A2BE2;
+
+.bod2 {
+    color: #8A2BE2;
     border-right: 7px solid #8A2BE2;
     padding: 10px;
-    width:800px; 
+    width: 800px;
 }
-.bod2 h2{
-    font-size:30px;
+
+.bod2 h2 {
+    font-size: 30px;
 }
+
 .hero {
     padding: 20px;
 }
@@ -89,19 +92,20 @@ header {
     text-align: center;
     padding: 10px 20px;
     background-color: #5a00b0;
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-.reasons2{
+
+.reasons2 {
     text-align: center;
     padding: 10px 20px;
-    background-color:#f4f4f4;
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-    align-items:center;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bod h2 {
@@ -114,19 +118,20 @@ header {
     background-color: #8A2BE2;
     gap: 10px;
     padding: 30px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     border-radius: 10px;
-    width:1200px;
+    width: 1200px;
 }
-.gen2{
+
+.gen2 {
     display: flex;
     flex-direction: row;
-    background-color:#f4f4f4;
+    background-color: #f4f4f4;
     gap: 10px;
     padding: 30px;
     /* margin-bottom:20px; */
     border-radius: 10px;
-    width:1200px;
+    width: 1200px;
 }
 
 .reasons h2 {
@@ -194,8 +199,10 @@ header {
 
 footer {
     text-align: center;
-    background-color: white;
+    background-color: rgba(138, 43, 226, 0.14);
+    ;
     color: white;
+    margin-top: 50px;
     padding: 20px 0;
 }
 
@@ -279,5 +286,65 @@ h2 {
 .im {
     border-radius: 10px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
 
+.boxes {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-g {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+}
+
+.j {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.b h2 {
+    font-weight: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #8A2BE2;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+    padding: 7px;
+
+}
+
+.ima {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.pp:first-child {
+    font-weight: bold;
+}
+
+.pp {
+    border-left: 5px solid #8A2BE2;
+    color: #8A2BE2;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+}
+
+.pp p {
+    margin: 0;
 }
